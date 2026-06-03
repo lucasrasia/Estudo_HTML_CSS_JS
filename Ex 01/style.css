@@ -1,0 +1,15 @@
+*{ /* *=tudo, começe por ele, Reset CSS (iguala entre os navegadores -> margin, padding, box-sizing*/
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background: black;
+    color: #fafafa;
+    padding:60px 20px; /* 1) em cima 2) do lado */
+    /* Dispaly - exibe/mostra de forma flexível*/
+    display:flex;
+    flex-direction: column; /* coloca em colunas    row=linha */
+    align-items: center;
+}
